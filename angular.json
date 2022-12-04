@@ -25,9 +25,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/lib/animate/animate.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css",
+              "src/assets/css/style.css"
+
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/lib/easing/easing.min.js",
+              "src/assets/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/js/main.js",
+              "src/assets/js/home.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "50ceeeb9-f1e3-447a-bddf-ba8a4651f874"
   }
 }
