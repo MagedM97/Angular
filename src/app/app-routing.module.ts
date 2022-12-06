@@ -8,12 +8,13 @@ import { ShopDetailComponent } from './component/shop-detail/shop-detail.compone
 import { ShopComponent } from './component/shop/shop.component';
 
 const routes: Routes = [
-  {path:"", component:HomeComponent},
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
+  {path:"home", component:HomeComponent},
   {path:"shop", component:ShopComponent},
   {path:"shop-detail",component:ShopDetailComponent},
   {path:"contact",component:ContactComponent},
-  {path:"cart",component:CartComponent},
-  {path:"checkout",component:ChecoutComponent}
+  {path:"pages/cart",component:CartComponent},
+  {path:"pages/checkout",component:ChecoutComponent}
   
 
 ];

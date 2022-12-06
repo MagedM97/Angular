@@ -35,7 +35,8 @@
               "src/assets/lib/easing/easing.min.js",
               "src/assets/lib/owlcarousel/owl.carousel.min.js",
               "src/assets/js/main.js",
-              "src/assets/js/home.js"
+              "src/assets/js/home.js",
+              "src/assets/mail/jqBootstrapValidation.min.js"
             ]
           },
           "configurations": {
